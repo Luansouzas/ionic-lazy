@@ -13,4 +13,7 @@ export class HomePage {
 
   }
 
+  noticia(){
+    this.navCtrl.setRoot('NotíciasPage');
+  }
 }
